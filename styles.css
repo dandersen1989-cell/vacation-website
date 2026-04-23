@@ -1,0 +1,66 @@
+/* Reset default margin, padding, and border */
+body, header, h1, h2, p, section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Page background */
+body {
+    background-color: #e6f0ff;
+    font-family: Verdana, sans-serif;
+    color: #222222;
+}
+
+/* Header */
+header {
+    background-color: #1a1a40;
+    color: #ffffff;
+    text-align: center;
+    padding: 25px;
+}
+
+/* Section */
+section {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Headings */
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    color: #003366;
+    margin-bottom: 10px;
+}
+
+/* Paragraphs */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Image citations (text directly after images) */
+img + p {
+    font-size: 12px;
+    color: #555;
+}
+
+/* Images */
+img {
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* List */
+ul {
+    list-style: square;
+    margin-left: 25px;
+}
